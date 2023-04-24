@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    font-family: sans-serif ;
+    background-color: lightblue;
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: darkblue;
+    margin: 0 0 0 0;
+}
+
+.logoUsthb{
+    padding: 5px 5px 5px 10px;
+    margin-right: 400px;
+    height: 110px;
+    width: 110px;
+}
+.usthblink{
+    width: 120px;
+    margin-right: 400px;
+}
+
+.pages{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    
+}
+.page{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    border-bottom: 3px solid white;
+
+}
+.page:hover{
+    transform: scale(1.2);
+}
+#selected{
+    color: cyan;    
+    border-bottom: 3px solid cyan;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+
+.sm{
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800px;
+    text-decoration: underline;
+    background-color: lightcyan;
+    margin: 50px;
+    padding: 5px 0 50px 0;
+    border-radius: 20px;    
+}
+.accounts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 0 50px;
+
+}
+.account{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin: 40px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px gray;
+}
+.account:hover{
+    transform: scale(1.05);
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.inspirations{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 50px;
+    padding-right: 100px;
+    gap: 30px;
+
+}
+.inspiration{
+    width: 100%;
+    background-color:   white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+iframe{
+    border-radius: 10px;
+    margin-left: 100px;
+}
+h2{
+    color: darkblue;
+    text-decoration: underline;
+    text-align: center ;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#taqwa{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+p{
+    width: 50%;
+    padding-left: 100px;
+    text-align:left;
+}
+#elon{
+    border-radius: 20px;
+    height: 600px;
+    width: 500px;
+}

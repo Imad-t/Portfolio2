@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: sans-serif ;
+    background-color: lightblue;
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: darkblue;
+    margin: 0 0 0 0;
+}
+
+.logoUsthb{
+    padding: 5px 5px 5px 10px;
+    margin-right: 400px;
+    height: 110px;
+    width: 110px;
+}
+.usthblink{
+    width: 120px;
+    margin-right: 400px;
+}
+
+.pages{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    
+}
+.page{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    border-bottom: 3px solid white;
+
+}
+.page:hover{
+    transform: scale(1.2);
+}
+#selected{
+    color: cyan;    
+    border-bottom: 3px solid cyan;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+.content{
+    display: flex;
+    align-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:76vh;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 44%;
+    margin-top: 30;
+    margin-left: 27%;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 20px gray;
+}
+li:hover{transform: scale(1.05);}
+
+
+.lang{
+    width: 500px;
+}
+.scale {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .scale-level {
+    width: 25px;
+    height: 15px;
+    background-color: darkblue;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  
+  
+  

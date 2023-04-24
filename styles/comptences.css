@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: sans-serif ;
+    background-color: lightblue;
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: darkblue;
+    margin: 0 0 0 0;
+}
+
+.logoUsthb{
+    padding: 5px 5px 5px 10px;
+    margin-right: 400px;
+    height: 110px;
+    width: 110px;
+}
+.usthblink{
+    width: 120px;
+    margin-right: 400px;
+}
+
+.pages{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    
+}
+.page{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    border-bottom: 3px solid white;
+
+}
+.page:hover{
+    transform: scale(1.2);
+}
+#selected{
+    color: cyan;    
+    border-bottom: 3px solid cyan;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 86vh;
+    gap: 10px;
+    background-color: lightblue;
+
+}
+
+.gridItem{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 18px;
+font-weight: 600;
+}
+
+.skill{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px ;
+}
+.skill:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 86vh;
+        gap: 10px;
+        background-color: lightblue;
+    }
+  }
+  @media (max-width: 720px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        height: 86vh;
+        gap: 10px;
+        background-color: lightblue;
+    }
+  }

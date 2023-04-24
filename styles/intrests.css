@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: sans-serif ;
+    background-color: lightblue;
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background-color: darkblue;
+    margin: 0 0 20px 0;
+}
+
+.logoUsthb{
+    padding: 5px 5px 5px 10px;
+    margin-right: 400px;
+    height: 110px;
+    width: 110px;
+}
+.usthblink{
+    width: 120px;
+    margin-right: 400px;
+}
+
+.pages{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    
+}
+.page{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color:white;
+    border-bottom: 3px solid white;
+
+}
+.page:hover{
+    transform: scale(1.2);
+}
+#selected{
+    color: cyan;    
+    border-bottom: 3px solid cyan;
+    font-size: 30px;
+    transform: translateY(-10px);
+}
+
+.content{
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    padding: 0 0 50px 0;
+}
+li{ position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 20px gray;
+}
+li:hover{transform: scale(1.05);}
+
+
+.interest{
+    padding-left: 20px;
+    width: 100%;
+}
+.scale {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 40px;
+  }
+  
+  .scale-level {
+    width: 25px;
+    height: 15px;
+    background-color: darkblue;
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+#sports{
+    background-image: url(../assets/sport.png);
+}
+#travel{
+    background-image: url(../assets/travel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cinema{
+    background-image: url(../assets/cinema.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#reading{
+    background-image: url(../assets/reading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#podcasts{
+    background-image: url(../assets/podcasts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #s{
+    color: darkgreen;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+ }
+ #t{
+    color: cyan;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+ }
+ #c{
+    color: darkred;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+ }
+ #r{
+    color: rgb(201, 201, 156);
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+ }
+ #p{
+    color: violet;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 800;
+ }
